@@ -1,0 +1,65 @@
+.post{
+    padding: 10px;
+    background-color: rgb(102, 201, 204);
+    border-radius: 10px; 
+    min-width: 453px;
+   }
+.button_add{
+    background-color: rgb(99, 175, 172);
+    color: rgb(23, 83, 52);
+    padding: 5px 10px;
+    border-radius:  5px;
+    text-decoration: none;
+}
+.button_add:hover{
+        filter: brightness(1.2);
+    }
+.button_add:active{
+    filter: brightness(1/2);
+}
+
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+
+header{
+    background-color: aquamarine;
+    border-radius: 10px;
+    pad: 10px  ;
+}
+header,footer{ padding: 10px;
+    background-color: rgb(102, 201, 204);
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav a{
+    color: rgb(73, 56, 33);
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    border-radius: 10px;
+    background-color: rgb(31, 23, 13);
+    color: aquamarine;
+}
+ .logo, .copy{
+    color: rgb(46, 42, 42);
+ }
+ .posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ .up:hover{
+    filter: brightness(1.2);
+ }
